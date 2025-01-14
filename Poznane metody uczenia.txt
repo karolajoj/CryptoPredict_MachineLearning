@@ -1,0 +1,171 @@
+----01----
+
+### Metody uczenia maszynowego
+1. **Uczenie nadzorowane (Supervised Learning):**
+   - Regresja (Liniowa/Logistyczna?)
+   - Klasyfikacja
+2. **Uczenie nienadzorowane (Unsupervised Learning):**
+   - Klastrowanie
+3. **Uczenie przez wzmacnianie (Reinforcement Learning)**
+
+### Reprezentacje w uczeniu maszynowym
+- Drzewa decyzyjne
+- Regresja liniowa
+- Regresja logistyczna
+- Naiwny klasyfikator bayesowski (Naive Bayes Classifier)
+- Algorytm \( k \) najbliższych sąsiadów (k-Nearest Neighbors)
+- Sieci neuronowe (Neural Networks)
+- Maszyny wektorów nośnych (Support Vector Machines)
+- Algorytmy genetyczne
+
+### Optymalizacja
+- Metoda gradientu prostego
+- Metoda Newtona
+- Programowanie liniowe
+- Wyszukiwanie zachłanne
+- Beam Search
+
+----02----
+
+BRAK
+
+----03----
+
+BRAK
+
+----04----
+
+BRAK
+
+----05----
+
+Walidacja krzyżówa
+Ewaluacja:
+    MSE
+    RMSE
+
+
+----06----
+
+Regresja wielomianowa
+Regularyzacja
+
+----07----
+
+Klastrowanie
+Analiza głównych składowych
+
+----08----
+
+Naiwny klasyfikator bayesowski
+KNN
+
+----09----
+
+Maszyny wektorów nośnych
+Drzewa decyzyjne
+Lasy Losowe
+
+----10----
+
+Sieć neuronowa
+
+----11----
+
+Propagacja wsteczna
+GD
+SGD
+Reguła łańcuchowa
+
+----12----
+
+1. **Gradient Descent** (metoda gradientu prostego):
+   - **Batch Gradient Descent**
+   - **Stochastic Gradient Descent** (SGD)
+   - **Mini-batch Gradient Descent**
+
+2. **Optymalizacja**:
+   - **Momentum**
+   - **Nesterov Accelerated Gradient (NAG)**
+   - **Adagrad**
+   - **Adadelta**
+   - **RMSprop**
+   - **Adam**
+   - **Nadam**
+   - **AMSGrad**
+
+----12a---
+
+1. **Metody zbiorcze (Ensemble methods)**:
+   - Zastosowanie wielu modeli w celu poprawy wyników.
+   - Dobór modeli i sposób agregacji wyników.
+   - Randomizacja zbioru uczącego przed trenowaniem modeli.
+
+2. **Uśrednianie prawdopodobieństw** - agregacja wyników w postaci średnich prawdopodobieństw zwróconych przez modele.
+
+3. **Głosowanie klas** - wybór klasy na podstawie liczby głosów uzyskanych przez modele.
+
+4. **Bagging** - metoda zbiorcza poprawiająca stabilność i dokładność modelu przez trenowanie wielu modeli na różnych losowych podzbiorach danych.
+
+5. **Boosting** - technika iteracyjna, w której modele uczą się na podstawie błędów poprzednich.
+
+6. **Stacking** - metoda, w której wyniki różnych modeli są łączone przez drugi model (metamodel), który jest trenowany na ich wyjściach.
+
+----13----
+
+W tym tekście poruszane są następujące metody uczenia maszynowego:
+
+1. **Splotowe sieci neuronowe (CNN, ConvNet)** - stosowane do rozpoznawania obrazów, analizy wideo i innych zagadnień, w których ważne jest sąsiedztwo danych wejściowych.
+
+2. **Warstwy konwolucyjne (Convolutional Layers)** - warstwy sieci neuronowej odpowiedzialne za wykrywanie lokalnych wzorców w danych wejściowych.
+
+3. **Pooling (max-pooling)** - technika próbkowania, która redukuje liczbę parametrów i upraszcza obliczenia, wybierając najwyższą wartość spośród kilku sąsiadujących pikseli.
+
+4. **ReLU (Rectified Linear Unit)** - funkcja aktywacji, stosowana w warstwach konwolucyjnych, pomagająca w nauce bardziej złożonych funkcji.
+
+5. **Sieci neuronowe z warstwą pełną (Fully Connected Layers)** - warstwy, które dokonują klasyfikacji na podstawie wykrytych wzorców przez warstwy konwolucyjne.
+
+6. **Softmax** - funkcja aktywacji stosowana w warstwie wyjściowej w zadaniach klasyfikacji wieloklasowej.
+
+7. **Adadelta** - optymalizator stosowany do trenowania sieci neuronowej.
+
+8. **Keras** - framework do budowy i trenowania modeli uczenia maszynowego (wykorzystany w tym przykładzie do implementacji CNN).
+
+Te metody razem tworzą architekturę splotowej sieci neuronowej, wykorzystywaną w rozwiązywaniu problemów rozpoznawania obrazów, takich jak klasyfikacja danych z zestawu MNIST.
+
+----14----
+
+Oto metody uczenia maszynowego poruszane w tym fragmencie:
+
+1. **Rekurencyjne sieci neuronowe (RNN)** – wykorzystywane do przetwarzania sekwencji danych, takich jak szereg czasowy czy tekst.
+2. **Long Short-Term Memory (LSTM)** – rozwinięcie RNN, umożliwiające długoterminowe zapamiętywanie i zapominanie.
+3. **Gated Recurrent Unit (GRU)** – uproszczona wersja LSTM, która ma mniej bramek.
+4. **Autoencoder** – metoda kompresji danych oraz wykrywania struktur w danych przy użyciu sieci neuronowej w konfiguracji encoder-decoder.
+5. **Principal Component Analysis (PCA)** – technika redukcji wymiarowości, porównywana do autoencodera.
+6. **Variational Autoencoders (VAE)** – rozwinięcie autoencodera, stosowane w modelowaniu generatywnym.
+7. **Word embeddings** – reprezentacja słów jako wektorów liczbowych, w tym metody:
+   - **CBOW (Continuous Bag of Words)**
+   - **Skip Gram**
+8. **Neural Machine Translation (NMT)** – neuronowe tłumaczenie maszynowe, oparte na modelu encoder-decoder.
+
+Te metody dotyczą głównie głębokiego uczenia się oraz przetwarzania sekwencji, redukcji wymiarów i analizy tekstu.
+
+----15----
+
+Metody uczenia maszynowego poruszane w tej wiadomości to:
+
+1. **Uczenie przez wzmacnianie (Reinforcement Learning)**:
+   - Proces decyzyjny Markowa
+   - Strategia (*policy*)
+   - Funkcja wartości (*V*) i funkcja *Q*
+   - Algorytmy:
+     - Programowanie dynamiczne (DP)
+     - Metody Monte Carlo (MC)
+     - Uczenie oparte na różnicach czasowych (Temporal Difference Learning, TD):
+       - SARSA (state-action-reward-state-action)
+       - Q-Learning
+       - Actor-Critic
+
+2. **Systemy dialogowe**:
+   - Chatboty
+   - Systemy zorientowane na zadania (task-oriented systems)

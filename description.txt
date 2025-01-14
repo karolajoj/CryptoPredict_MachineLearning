@@ -1,0 +1,21 @@
+Otwarto: wtorek, 12 grudnia 2023, 08:00
+Wymagane do: środa, 22 stycznia 2025, 23:59
+Projekt realizowany jest indywidualnie.
+
+Projekt polega na zastosowaniu poznanych metod uczenia maszynowego do znalezienia rozwiązania wybranego problemu.
+
+Oprócz zbudowania odpowiedniego modelu, oceniane będzie odpowiednie przygotowanie danych uczących oraz ewaluacja stworzonego modelu.
+
+Dodatkowo, żeby otrzymać maksymalną liczbę punktów, przynajmniej jeden z modeli powinien być siecią neuronową.
+
+Pliki potrzebne do uruchomienia projektu (kod i dane) należy dołączyć na Moodle'u lub umieścić w repozytorium (wówczas wystarczy podać jego adres).
+
+Do oceny projektu proszę przygotować również krótki raport, zawierający:
+
+cel projektu / definicję problemu (jakie zagadnienie Państwo rozwiązywali)
+opis użytych danych (skąd pochodzą dane, ile przykładów zawierają zbiory uczący i testowy)
+opis wykorzystanych metod (jakich modeli Państwo użyli)
+tabelkę z wynikami ewaluacji
+ewentualne wnioski
+Wzór raportu znajduje się w pliku Wzór raportu.docx
+Maksymalna liczba punktów: 34
