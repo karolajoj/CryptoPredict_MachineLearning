@@ -13,7 +13,7 @@
 - Regresja liniowa
 - Regresja logistyczna
 - Naiwny klasyfikator bayesowski (Naive Bayes Classifier)
-- Algorytm \( k \) najbliższych sąsiadów (k-Nearest Neighbors)
+- Algorytm 'k' najbliższych sąsiadów (k-Nearest Neighbors)
 - Sieci neuronowe (Neural Networks)
 - Maszyny wektorów nośnych (Support Vector Machines)
 - Algorytmy genetyczne
@@ -131,15 +131,12 @@ W tym tekście poruszane są następujące metody uczenia maszynowego:
 
 8. **Keras** - framework do budowy i trenowania modeli uczenia maszynowego (wykorzystany w tym przykładzie do implementacji CNN).
 
-Te metody razem tworzą architekturę splotowej sieci neuronowej, wykorzystywaną w rozwiązywaniu problemów rozpoznawania obrazów, takich jak klasyfikacja danych z zestawu MNIST.
-
 ----14----
-
-Oto metody uczenia maszynowego poruszane w tym fragmencie:
 
 1. **Rekurencyjne sieci neuronowe (RNN)** – wykorzystywane do przetwarzania sekwencji danych, takich jak szereg czasowy czy tekst.
 2. **Long Short-Term Memory (LSTM)** – rozwinięcie RNN, umożliwiające długoterminowe zapamiętywanie i zapominanie.
 3. **Gated Recurrent Unit (GRU)** – uproszczona wersja LSTM, która ma mniej bramek.
+
 4. **Autoencoder** – metoda kompresji danych oraz wykrywania struktur w danych przy użyciu sieci neuronowej w konfiguracji encoder-decoder.
 5. **Principal Component Analysis (PCA)** – technika redukcji wymiarowości, porównywana do autoencodera.
 6. **Variational Autoencoders (VAE)** – rozwinięcie autoencodera, stosowane w modelowaniu generatywnym.
@@ -148,11 +145,7 @@ Oto metody uczenia maszynowego poruszane w tym fragmencie:
    - **Skip Gram**
 8. **Neural Machine Translation (NMT)** – neuronowe tłumaczenie maszynowe, oparte na modelu encoder-decoder.
 
-Te metody dotyczą głównie głębokiego uczenia się oraz przetwarzania sekwencji, redukcji wymiarów i analizy tekstu.
-
 ----15----
-
-Metody uczenia maszynowego poruszane w tej wiadomości to:
 
 1. **Uczenie przez wzmacnianie (Reinforcement Learning)**:
    - Proces decyzyjny Markowa

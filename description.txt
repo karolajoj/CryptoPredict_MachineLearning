@@ -19,3 +19,54 @@ tabelkę z wynikami ewaluacji
 ewentualne wnioski
 Wzór raportu znajduje się w pliku Wzór raportu.docx
 Maksymalna liczba punktów: 34
+
+______________________________________________________________
+Artykuł i materiały z zajęć:
+
+   (Temat 14) **Rekurencyjne sieci neuronowe (RNN)** – wykorzystywane do przetwarzania sekwencji danych, takich jak szereg czasowy czy tekst.
+1. (Temat 14) **Long Short-Term Memory (LSTM)**      – Sequential()//keras - rozwinięcie RNN, umożliwiające długoterminowe zapamiętywanie i zapominanie.
+2. (Temat 14) **Gated Recurrent Unit (GRU)**         - Sequential()//keras - uproszczona wersja LSTM, która ma mniej bramek.
+3. (Temat 09) Random Forest (RF)        - RandomForestRegressor()//scikit-learn - Lasy losowe
+4. (Temat 12a) Gradient Boosting (GB)   - GradientBoostingRegressor()//scikit-learn - (Nadzorowana metoda zbiorcza) ensemble supervised ML algorithm that combines multiple weak learners to create a final mode
+
+
+Ewaluacja artykuł i materiały :
+1. Root Mean Square Error (RMSE) - Ewaluacja regresji
+2. Mean Square Error (MSE) - Ewaluacja regresji
+Nie można użyć Accuracy, precision, recall, F1 ... bo to metody ewaluacji klasyfikacji!!!
+
+Nie było na zajęciach?:
+Coefficient of Determination (R^2)
+Time-Weighted Average (TWAP)
+Volume-Weighted Average (VWAP) 
+
+-Model może dobrze przewidywać ceny ale czy ostatecznie będzie opłacalny 
+(Model przewiduje ceny z małym błędem bezwzględnym ale mimo to nie jest poprawny bo nie przewiduje trendu - działa praktycznie tak samo jak EMA lub SMA)?
+-1D Timeframe data -  May 2017- May 2023 (2190 rows)
+
+Uwzględnić:
+Investors trying to precisely forecast price fluctuations and make profitable
+investments face problems due to the cryptocurrency market’s extreme volatility and
+unpredictability
+
+Libraries:
+> python version 3.9.12 – Open-source programming language.
+> pandas Version: 2.0.1 - Powerful data structures for data analysis [39].
+> pandas-ta Version: 0.3.14b0- Extension for pandas used for Technical
+> scikit-learn Version: 1.2.2- A library that provides many regression
+> keras Version: 2.12.0 – A library that provides many deep learning
+> numpy Version: 1.23.5- Library that gives support for large multidimensional arrays and matrices [23].
+> matplotlib Version: 3.7.1- Library that provide plotting features [26].
+
+Technical Indicators (pandas_ta):
+> RSI (length = 14)
+> EMA (length = 5)
+> SMA (length = 5)
+
+Nan -> 0
+
+minmax scaler 0-1
+
+Train (70% from start)
+Validation(10%) - for hyperparameter tuning,
+Test(20%)
