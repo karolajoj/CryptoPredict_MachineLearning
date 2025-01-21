@@ -1,5 +1,6 @@
 Otwarto: wtorek, 12 grudnia 2023, 08:00
 Wymagane do: środa, 22 stycznia 2025, 23:59
+
 Projekt realizowany jest indywidualnie.
 
 Projekt polega na zastosowaniu poznanych metod uczenia maszynowego do znalezienia rozwiązania wybranego problemu.
@@ -34,6 +35,7 @@ Ewaluacja artykuł i materiały :
 1. Root Mean Square Error (RMSE) - Ewaluacja regresji
 2. Mean Square Error (MSE) - Ewaluacja regresji
 Nie można użyć Accuracy, precision, recall, F1 ... bo to metody ewaluacji klasyfikacji!!!
+3. Chyba że na podstawie przewidywać zrobię klasyfikację na wzrost i spadek lub brak trendu
 
 Nie było na zajęciach?:
 Coefficient of Determination (R^2)
@@ -70,3 +72,18 @@ minmax scaler 0-1
 Train (70% from start)
 Validation(10%) - for hyperparameter tuning,
 Test(20%)
+
+1.1.1 Aim
+The aim of this thesis is to compare the machine learning algorithms for the price
+prediction of Bitcoin while using technical indicators as inputs. The comparison
+of the algorithms will be done based on chosen evaluation metrics to find out which
+features in the dataset has the most significant effect on the predictions of each model.
+1.1.2 Objectives
+The objectives of this thesis are:
+1. To find out the ML algorithms that can be used for the prediction of Bitcoin
+prices.
+2. To compare the predictions of each ML algorithm using various evaluation
+metric scores.
+3. To find out which among the technical indicators taken as input has more effect
+on the prediction of each model.
+

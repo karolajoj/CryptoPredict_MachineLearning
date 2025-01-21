@@ -154,7 +154,7 @@ W tym tekście poruszane są następujące metody uczenia maszynowego:
    - Algorytmy:
      - Programowanie dynamiczne (DP)
      - Metody Monte Carlo (MC)
-     - Uczenie oparte na różnicach czasowych (Temporal Difference Learning, TD):
+     - Uczenie oparte na różnicach czasowych (Temporal FutureTrendDiff Learning, TD):
        - SARSA (state-action-reward-state-action)
        - Q-Learning
        - Actor-Critic
